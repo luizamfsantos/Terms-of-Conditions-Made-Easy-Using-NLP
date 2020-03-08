@@ -37,10 +37,10 @@ Our future goal is to:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Authors
-Cris Troiano 
+Cris Caon 
 Luiza Santos
-Rafael.. to comendo
-Pedrao gente boa
+Rafael Javarez
+Pedro Piccino 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
