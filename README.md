@@ -11,9 +11,11 @@ This application is still under development and it was created during the HackWe
 - Flask
 ```python
 	from flask import Flask, render_template, request, flash
+  ```
 - Rake 
 ```python
 	from multi_rake import Rake
+```
 
 ##Built With
 
