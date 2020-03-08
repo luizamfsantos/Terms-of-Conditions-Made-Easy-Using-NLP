@@ -9,19 +9,22 @@ This application is still under development and it was created during the HackWe
 ##Prerequisites
 - Python 3.6+
 - Flask
+
 ```python
-	from flask import Flask, render_template, request, flash
+from flask import Flask, render_template, request, flash
   ```
   
 - Rake 
 ```python
-	from multi_rake import Rake
+from multi_rake import Rake
 ```
 
 ## Built With
 
-- Python
-- Bootstrap 
+- Python (https://www.python.org/)
+- Multi-Rake (https://pypi.org/project/multi-rake/)
+- Flask (https://pypi.org/project/Flask/)
+- Bootstrap (https://getbootstrap.com/)
 - Love sz 
 
 ## Future Plans:
