@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HackWestTX</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Fontawesome CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'main.css') }}">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg justify-content-center">
+    <a href="#" class="navbar-brand">
+      <img src="static/Black_on_a_Player_Card.png" width="70" height="70" class="d-inline-block align-top" alt="">
+    </a>
+  </nav>
+
+  <div class="card text-center">
+    <div class="card-body">
+      <div class="content-section">
+        <form action="" method="post">
+          <fieldset class="form-group">
+            <h3 class="border-bottom mb-4">Terms of Use</h3>
+            <div class="form-group">
+              <textarea name="input" cols="100" rows="7"></textarea>
+            </div>
+          </fieldset>
+          <div class="form-group">
+            <input type="submit" value="Submit" class="btn btn-outline-info">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="content-section">
+        <h3 class="text-primary">{{ results_score }}</h3>
+        <h4 class="text-primary">{{ results_feedback }}{{ reaction }}</h4>
+        <div class=" row">
+          <div class="col-md-6">
+            <legend class="border-bottom mb-4">Good Words</legend>
+            <p class="text-success">{{ output }}</p>
+          </div>
+          <div class="col-md-6">
+            <legend class="border-bottom mb-4">Bad Words</legend>
+            <p class="text-danger">{{ output2 }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
