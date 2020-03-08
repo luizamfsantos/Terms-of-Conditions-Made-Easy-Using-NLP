@@ -103,7 +103,6 @@ def home():
     if request.method == "POST":
         terms_form = request.form.get("input")
         kw = rake.apply(terms_form)
-        # res = kw
         for word in kw:
             if word[0] in good_words:
                 good_words[word[0]] += 1
