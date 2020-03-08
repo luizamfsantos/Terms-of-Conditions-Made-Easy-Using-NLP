@@ -84,7 +84,7 @@ def home():
         "safety laws": 0,
         "password confidential": 0,
         "malware detection": 0,
-        "privacy policy": 0,
+        "privacy": 0,
         "worldwide license": 0,
         "submit feedback": 0,
         "reasonable requests assisting": 0,
