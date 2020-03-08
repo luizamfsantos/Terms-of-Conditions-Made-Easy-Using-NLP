@@ -6,24 +6,23 @@ The applicatio analyze the inputed data, find key words, and expose to the user 
 This application is still under development and it was created during the HackWesTX Hackathon. 
 
 
-##Prerequisites
+## Prerequisites
 - Python 3.6+
 - Flask
 ```python
-	from flask import Flask, render_template, request, flash
+from flask import Flask, render_template, request, flash
   ```
 - Rake 
 ```python
-	from multi_rake import Rake
+from multi_rake import Rake
 ```
-
-##Built With
+## Built With
 
 - Python
 - Bootstrap 
 - Love sz 
 
-##Future Plans:
+## Future Plans
 Our future goal is to:
 1st) Use ML in a way the program will be able to read the Terms and Conditios and choose what words represent a benefit or a danger to the customer. 
      Because of the time constraint (and a team that was learning while doing it) we wouldnt have time to develop it during the hackathon. 
@@ -32,7 +31,7 @@ Our future goal is to:
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-##Authors
+## Authors
 Cris Troiano 
 Luiza Santos
 Rafael.. to comendo
